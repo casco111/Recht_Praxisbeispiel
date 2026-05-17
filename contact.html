@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="PartyPulse - Das ultimative digitale Party-Spiel für 2-10 Spieler. Quiz, Challenges, Mini-Games.">
+  <title>Kontakt & Impressum - PartyPulse</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="professional">
+
+  <header class="site-header">
+    <div class="hdr">
+      <a href="index.html" class="logo" aria-label="PartyPulse Startseite">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#ff2f7a"/>
+              <stop offset="100%" stop-color="#c71f5a"/>
+            </linearGradient>
+          </defs>
+          <circle cx="20" cy="20" r="19" fill="#11112a" stroke="#ff2f7a" stroke-width="1.8"/>
+          <path d="M22 7 L14 22 H20 L17 33 L28 18 H22 Z" fill="url(#lg1)"/>
+          <path d="M7 28 Q13 21 20 24 Q27 27 33 21" stroke="#00deff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="logo-wm">PartyPulse</span>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav" aria-label="Navigationsmenü öffnen/schließen">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect y="3.5"  width="22" height="2.4" rx="1.2" fill="currentColor"/>
+          <rect y="9.8"  width="22" height="2.4" rx="1.2" fill="currentColor"/>
+          <rect y="16.1" width="22" height="2.4" rx="1.2" fill="currentColor"/>
+        </svg>
+      </button>
+
+      <nav class="main-nav" id="mainNav" aria-label="Hauptnavigation">
+        <ul class="nav-list" role="list">
+          <li><a class="nav-link" href="index.html">Shop</a></li>
+          <li><a class="nav-link" href="about.html">Über uns</a></li>
+          <li><a class="nav-link" href="license.html">Lizenz & Urheberrecht</a></li>
+          <li><a class="nav-link" href="privacy.html">Datenschutz</a></li>
+          <li><a class="nav-link active" href="contact.html" aria-current="page">Kontakt & Impressum</a></li>
+          <li><a class="nav-link" href="accessibility.html">Barrierefreiheit</a></li>
+          <li></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <article aria-label="Kontakt und Impressum">
+      <div class="wrap sec">
+        <p class="eyebrow">Aufgabe 6 - Gewerbe & Kommunikation</p>
+        <h1>Kontakt & Impressum</h1>
+        
+        <div class="g2" style="margin-top:36px;margin-bottom:64px;">
+          
+          <section aria-labelledby="cf-h2">
+            <h2 id="cf-h2" style="margin-bottom:22px;">Nachricht senden</h2>
+            <form class="cf" id="contactForm" onsubmit="submitForm(event)" novalidate>
+              
+              <label for="cn">Ihr vollständiger Name *</label>
+              <input type="text" id="cn" required aria-required="true" placeholder="Max Mustermann">
+              <span id="cn-error" class="error-msg" role="alert" aria-live="polite"></span>
+              
+              <label for="ce">Ihre E-Mail-Adresse *</label>
+              <input type="email" id="ce" required aria-required="true" aria-describedby="ce-error" placeholder="beispiel@email.at">
+              <span id="ce-error" class="error-msg" role="alert" aria-live="polite"></span>
+              
+              <label for="cm">Ihre Nachricht *</label>
+              <textarea id="cm" required aria-required="true" aria-describedby="cm-error" rows="5" placeholder="Wie können wir Ihnen helfen?"></textarea>
+              <span id="cm-error" class="error-msg" role="alert" aria-live="polite"></span>
+              
+              <div style="margin-bottom: 18px; display: flex; align-items: flex-start; gap: 8px;">
+                <input type="checkbox" id="cprivacy" required aria-required="true" style="width: auto; margin-top: 4px;">
+                <label for="cprivacy" style="font-weight: normal; font-size: 0.9rem; margin-bottom: 0;">
+                  Ich stimme zu, dass meine Daten zur Bearbeitung der Anfrage verarbeitet werden (Details siehe <a href="privacy.html">Datenschutzerklärung</a>). *
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-p">Nachricht senden</button>
+            </form>
+          </section>
+
+          <section aria-labelledby="cd-h2">
+            <h2 id="cd-h2" style="margin-bottom:22px;">Kontaktdaten</h2>
+            <div class="card lp">
+              <address style="font-style: normal; font-size: 0.95rem; line-height: 1.6;">
+                <strong>NeonPlay GmbH</strong><br>
+                Lennardstraße 1<br>
+                1240 Wien, Österreich<br><br>
+                <strong>E-Mail:</strong> office@neonplay.at<br>
+                <strong>Telefon:</strong> +43 1 234 5678<br><br>
+                <span>Barrierefreiheit-Feedback:</span><br>
+                Mängel oder Barrieren können Sie direkt an <strong>support@partypulse.at</strong> melden.
+              </address>
+            </div>
+          </section>
+        </div>
+
+        <hr class="div">
+        
+        <h2 id="impressum">Impressum</h2>
+        <p style="margin-bottom: 20px;"><em>Pflichtangaben gemäß § 5 ECG, § 14 UGB und § 24 / § 25 Mediengesetz.</em></p>
+        
+        <div class="card lp" style="padding: 24px; background: var(--card); border: 1px solid var(--border); border-radius: var(--rl);">
+          <dl class="dl-grid" style="margin: 0;">
+            <dt style="font-weight: bold;">Medieninhaber</dt>
+            <dd>NeonPlay GmbH</dd>
+            
+            <dt style="font-weight: bold;">Unternehmensgegenstand</dt>
+            <dd>Entwicklung und Vertrieb von Software</dd>
+            
+            <dt style="font-weight: bold;">Sitz / Adresse</dt>
+            <dd>Lennardstraße 1, 1240 Wien, Österreich</dd>
+            
+            <dt style="font-weight: bold;">Firmenbuchnummer</dt>
+            <dd>FN 123456a</dd>
+            
+            <dt style="font-weight: bold;">Firmenbuchgericht</dt>
+            <dd>Handelsgericht Wien</dd>
+            
+            <dt style="font-weight: bold;">UID-Nummer</dt>
+            <dd>ATU12345678</dd>
+            
+            <dt style="font-weight: bold;">Geschäftsführung</dt>
+            <dd>Maximilian Helm</dd>
+            
+            <dt style="font-weight: bold;">Gesellschafter</dt>
+            <dd>Maximilian Helm (20%), Zen Heria (20%), Joseph Cooper (20%), Laura Miller (20%),  Amelia Brand (20%)</dd>
+            
+            <dt style="font-weight: bold;">Blattlinie (Inhalt)</dt>
+            <dd>Präsentation und Vertrieb des digitalen Party-Spiels "PartyPulse".</dd>
+          </dl>
+        </div>
+      </div>
+    </article>
+  </main>
+
+<footer role="contentinfo">
+        <div class="foot">
+            <div class="foot-links"
+                style="display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 24px; justify-content: center;">
+                <a href="about.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Über uns</a>
+                <a href="license.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Lizenz &
+                    Urheberrecht</a>
+                <a href="privacy.html"
+                    style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Datenschutz</a>
+                <a href="contact.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Kontakt & Impressum</a>
+                <a href="accessibility.html"
+                    style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Barrierefreiheit</a>
+            </div>
+            <div class="foot-bot" style="text-align: center; color: var(--muted); font-size: .8rem;">
+                <span>© 2026 NeonPlay GmbH · Wien, Österreich</span>
+            </div>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

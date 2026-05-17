@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description"
+        content="PartyPulse - Das ultimative digitale Party-Spiel für 2-10 Spieler. Quiz, Challenges, Mini-Games.">
+    <title>PartyPulse - Start-Up Webshop</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="hdr">
+            <a href="index.html" class="logo" aria-label="PartyPulse Startseite">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <defs>
+                        <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff2f7a" />
+                            <stop offset="100%" stop-color="#c71f5a" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="20" cy="20" r="19" fill="#11112a" stroke="#ff2f7a" stroke-width="1.8" />
+                    <path d="M22 7 L14 22 H20 L17 33 L28 18 H22 Z" fill="url(#lg1)" />
+                    <path d="M7 28 Q13 21 20 24 Q27 27 33 21" stroke="#00deff" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="logo-wm">PartyPulse</span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav"
+                aria-label="Navigationsmenü öffnen/schließen">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <rect y="3.5" width="22" height="2.4" rx="1.2" fill="currentColor" />
+                    <rect y="9.8" width="22" height="2.4" rx="1.2" fill="currentColor" />
+                    <rect y="16.1" width="22" height="2.4" rx="1.2" fill="currentColor" />
+                </svg>
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Hauptnavigation">
+                <ul class="nav-list" role="list">
+                    <li><a class="active nav-link" href="index.html">Shop</a></li>
+                    <li><a class="nav-link" href="about.html">Über uns</a></li>
+                    <li><a class="nav-link" href="license.html">Lizenz & Urheberrecht</a></li>
+                    <li><a class="nav-link" href="privacy.html" aria-current="page">Datenschutz</a></li>
+                    <li><a class="nav-link" href="contact.html">Kontakt & Impressum</a></li>
+
+                    <li><a class="nav-link" href="accessibility.html">Barrierefreiheit</a></li>
+                    <li></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <article aria-label="Shop - Produkt PartyPulse">
+
+            <section class="hero">
+                <div class="hero-in">
+                    <h1 id="shop-h1">Party<span style="color:var(--cyan)">Pulse</span></h1>
+                    <p class="hero-sub">Das ultimative digitale Party-Spiel für 2-10 Spieler. Quiz, Challenges,
+                        Mini-Games - 100 % im Browser oder auch als native App.</p>
+                    <div class="hero-btns">
+                        <button class="btn btn-p btn-lg"
+                            onclick="document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})">Jetzt
+                            kaufen</button>
+                    </div>
+                </div>
+
+                <video autoplay muted playsinline id="confetti-video">
+                    <source src="videos/121985-724732208.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <section class="sec" id="details" aria-labelledby="details-h2">
+                <div class="wrap">
+                    <h2 id="details-h2">Das ist PartyPulse</h2>
+
+                    <div class="g2" style="align-items: center; margin-top: 32px;">
+                        <div style="border-radius: var(--rl); overflow: hidden; border: 1px solid var(--border);">
+                            <img width="100%" height="100%" src="images/Gemini_Generated_Image_k1cl7sk1cl7sk1cl.png"
+                                alt="Screenshot der PartyPulse Anwendung">
+
+                        </div>
+                        <div>
+                            <h3 style="margin-bottom: 12px;">Ist das was für euch?</h3>
+                            <p>PartyPulse ist vor allem für junge Erwachsene geignet. Perfekt für Studenten, WG-Bewohner
+                                oder Party-Freunde. Sei es ein entspannter Spieleabend auf der Couch oder eine
+                                eskalierende Hausparty handelt. PartyPulse bietet Modi für ruhige Settings und kann der
+                                perfekte IceBreaker sein.</p>
+                        </div>
+                    </div>
+
+                    <div class="g2" style="align-items: center; margin-top: 64px;">
+                        <div style="border-radius: var(--rl); overflow: hidden; border: 1px solid var(--border);">
+                            <video width="100%" height="100%" src="videos/mp_.mp4" autoplay muted loop
+                                alt="Video der PartyPulse Anwendung">
+
+                        </div>
+                        <div>
+                            <h3 style="margin-bottom: 12px;">Wie funktionierts?</h3>
+                            <p>PartyPulse ist webbasiert und bietet ein umfassendes Paket für beliebige Anlässe:</p>
+                            <ul style="list-style-type: none; padding-left: 0;">
+                                <li style="margin-bottom: 8px;"><strong>Lokal Multiplayer:</strong> 2 bis 10 Spieler
+                                    können über ihr Smartphone ganz einfach mittels QR-Code mitspielen.</li>
+                                <li style="margin-bottom: 8px;"><strong>Quiz-Modus:</strong> Über 500 Fragen aus 12
+                                    Kategorien über alle beliebten Themen, sorgen für einen abwechslungsreichen
+                                    Spieleabend.</li>
+                                <li style="margin-bottom: 8px;"><strong>Challenge-Modus:</strong> Witzige Aufgaben,
+                                    Wetten und selbst erstellbare Bestrafungen für extra Spaßfaktor.</li>
+                                <li style="margin-bottom: 8px;"><strong>Minigames:</strong> 12 verschiedene Minigames
+                                    von Reaktionstests, Sportspielen bis zu komplexen Denkaufgaven.</li>
+                                <li style="margin-bottom: 8px;"><strong>Mit oder ohne Download:</strong> Sowohl die
+                                    Anwendung am
+                                    Fernsehr als auch die Steuerung am Handy sind im Browser verfügbar oder als Download
+                                    verfügbar.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sec" id="pricing" aria-labelledby="price-h2">
+                <div class="wrap">
+                    <h2 id="price-h2">Wähle deinen Plan</h2>
+                    <div class="price-grid" role="list">
+
+                        <article class="price-card" role="listitem">
+                            <span class="badge b-cyan"
+                                style="display:block;text-align:center;margin-bottom:14px;">Kostenlos</span>
+                            <div class="price-name">Free</div>
+                            <div class="price-amt">€0</div>
+                            <div class="price-per">7 Tage gratis</div>
+                            <button class="btn btn-o" style="width:100%">Kostenlos starten</button>
+                        </article>
+
+                        <article class="price-card feat" role="listitem">
+                            <span class="badge b-pink"
+                                style="display:block;text-align:center;margin-bottom:14px;">Abo</span>
+                            <div class="price-name">Premium</div>
+                            <div class="price-amt">€4,99</div>
+                            <div class="price-per">/ Monat · jederzeit kündbar</div>
+                            <button class="btn btn-p" style="width:100%" onclick="openModal()">Jetzt abonnieren</button>
+                        </article>
+
+                        <article class="price-card" role="listitem">
+                            <span class="badge b-lime"
+                                style="display:block;text-align:center;margin-bottom:14px;">Einmalkauf</span>
+                            <div class="price-name">Lifetime</div>
+                            <div class="price-amt">€39,99</div>
+                            <div class="price-per">einmalig · lebenslanger Zugang</div>
+                            <button class="btn btn-o" style="width:100%" onclick="openModal()">Lifetime kaufen</button>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer role="contentinfo">
+        <div class="foot">
+            <div class="foot-links"
+                style="display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 24px; justify-content: center;">
+                <a href="about.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Über uns</a>
+                <a href="license.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Lizenz &
+                    Urheberrecht</a>
+                <a href="privacy.html"
+                    style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Datenschutz</a>
+                <a href="contact.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Kontakt &
+                    Impressum</a>
+                <a href="accessibility.html"
+                    style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Barrierefreiheit</a>
+            </div>
+            <div class="foot-bot" style="text-align: center; color: var(--muted); font-size: .8rem;">
+                <span>© 2026 NeonPlay GmbH · Wien, Österreich</span>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal" role="dialog" aria-labelledby="modal-h3" aria-modal="true">
+        <div class="modal-in">
+            <button class="modal-close" onclick="closeModal()" aria-label="Modal schließen">×</button>
+            <h3 id="modal-h3">Kaufvorgang abschließen</h3>
+            <p style="color: var(--muted); font-size: 0.9rem;">Starten Sie Ihr 30-tägiges kostenloses Probeabo oder den
+                Lifetime-Kauf. Keine versteckten Kosten.</p>
+            <form onsubmit="handleSubscription(event)">
+                <label for="sub-email">E-Mail-Adresse *</label>
+                <input type="email" id="sub-email" placeholder="beispiel@email.de" required aria-required="true">
+                <label for="sub-payment">Zahlungsmethode *</label>
+                <select id="sub-payment" required aria-required="true">
+                    <option value="">Zahlungsmethode wählen</option>
+                    <option value="card">Kreditkarte</option>
+                    <option value="paypal">PayPal</option>
+                </select>
+                <button type="submit" class="btn btn-p">Weiter zur Zahlung</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="cookieBanner"
+        style="display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--card, #11112a); border-top: 1px solid var(--border, #333); padding: 16px 24px; z-index: 9999; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 16px;">
+        <p style="margin: 0; font-size: 0.9rem; color: var(--muted, #ccc); flex: 1 1 300px;">
+            Wir verwenden Cookies, um die grundlegende Funktionalität unserer Website sicherzustellen und unser Angebot
+            für Sie zu verbessern. Weitere Details finden Sie in unserer <a href="privacy.html"
+                style="color: var(--cyan, #00deff);">Datenschutzerklärung</a>.
+        </p>
+        <div style="display: flex; gap: 12px;">
+            <button id="declineCookies" class="btn btn-o" style="padding: 8px 16px; font-size: 0.9rem;">Nur
+                essenzielle</button>
+            <button id="acceptCookies" class="btn btn-p" style="padding: 8px 16px; font-size: 0.9rem;">Alle
+                akzeptieren</button>
+        </div>
+    </div>
+
+    <script>
+        // Inline JS to handle simple interactions directly in this file
+        function openModal() {
+            document.getElementById('modal').classList.add('vis');
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('vis');
+        }
+
+        function handleSubscription(event) {
+            event.preventDefault();
+            alert('Kaufprozess gestartet! (Mock)');
+            closeModal();
+        }
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') closeModal();
+        });
+
+        // Mobile menu toggle
+        document.getElementById('menuBtn').addEventListener('click', function () {
+            const nav = document.getElementById('mainNav');
+            const isExpanded = this.getAttribute('aria-expanded') === 'true';
+            this.setAttribute('aria-expanded', !isExpanded);
+            nav.classList.toggle('open');
+        });
+
+        // Cookie Banner Logic
+        document.addEventListener('DOMContentLoaded', function () {
+            const cookieBanner = document.getElementById('cookieBanner');
+            const acceptBtn = document.getElementById('acceptCookies');
+            const declineBtn = document.getElementById('declineCookies');
+
+            // Prüfen, ob bereits eine Entscheidung im LocalStorage gespeichert wurde
+            if (!localStorage.getItem('cookieConsent')) {
+                cookieBanner.style.display = 'flex'; // Banner anzeigen
+            }
+
+            // Klick auf "Alle akzeptieren"
+            acceptBtn.addEventListener('click', function () {
+                localStorage.setItem('cookieConsent', 'accepted');
+                cookieBanner.style.display = 'none';
+            });
+
+            // Klick auf "Nur essenzielle"
+            declineBtn.addEventListener('click', function () {
+                localStorage.setItem('cookieConsent', 'declined');
+                cookieBanner.style.display = 'none';
+            });
+        });
+    </script>
+</body>
+
+</html>

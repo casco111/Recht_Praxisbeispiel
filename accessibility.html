@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta name="description"
+        content="PartyPulse - Das ultimative digitale Party-Spiel für 2-10 Spieler. Quiz, Challenges, Mini-Games.">
+    <title>Barrierefreiheit - PartyPulse</title>
+
+    <link rel="stylesheet" href="style.css">
+ </head>
+
+<body class="professional">
+  
+    <header class="site-header">
+        <div class="hdr">
+            <a href="index.html" class="logo" aria-label="PartyPulse Startseite">
+                <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <defs>
+                        <linearGradient id="lg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#ff2f7a" />
+                            <stop offset="100%" stop-color="#c71f5a" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="20" cy="20" r="19" fill="#11112a" stroke="#ff2f7a" stroke-width="1.8" />
+                    <path d="M22 7 L14 22 H20 L17 33 L28 18 H22 Z" fill="url(#lg1)" />
+                    <path d="M7 28 Q13 21 20 24 Q27 27 33 21" stroke="#00deff" stroke-width="2" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span class="logo-wm">PartyPulse</span>
+            </a>
+
+            <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav"
+                aria-label="Navigationsmenü öffnen/schließen">
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true">
+                    <rect y="3.5" width="22" height="2.4" rx="1.2" fill="currentColor" />
+                    <rect y="9.8" width="22" height="2.4" rx="1.2" fill="currentColor" />
+                    <rect y="16.1" width="22" height="2.4" rx="1.2" fill="currentColor" />
+                </svg>
+            </button>
+
+            <nav class="main-nav" id="mainNav" aria-label="Hauptnavigation">
+                <ul class="nav-list" role="list">
+                    <li><a class="nav-link" href="index.html">Shop</a></li>
+                    <li><a class="nav-link" href="about.html">Über uns</a></li>
+                    <li><a class="nav-link" href="license.html">Lizenz & Urheberrecht</a></li>
+                    <li><a class="nav-link" href="privacy.html">Datenschutz</a></li>
+                    <li><a class="nav-link" href="contact.html">Kontakt & Impressum</a></li>
+                    <li><a class="nav-link active" href="accessibility.html" aria-current="page">Barrierefreiheit</a></li>
+                    </li>
+                    <li></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+        <article aria-label="Barrierefreiheitserklärung gemäß Web-Zugänglichkeits-Gesetz">
+            <div class="wrap sec">
+                <h1>Erklärung zur Barrierefreiheit</h1>
+                <p><em>Stand: Mai 2026</em></p>
+
+                <div class="card lp" style="margin-top:32px; padding: 32px;">
+
+                    <h2 style="margin-top:0; margin-bottom: 16px;">1. Einleitung und Stand der
+                        Vereinbarkeit</h2>
+                    <div class="info-alert" style="margin-bottom: 24px; border-radius: 4px;">
+                        Stand der Vereinbarkeit: Teilweise vereinbarmit den Anforderungen der WCAG2.2, Konformitätsstufe
+                        AA.
+                    </div>
+                    <p>Wir versuchen, unsere Website für das Party-Spiel PartyPulse nach den
+                        Bestimmungen barrierefrei zu gestalten.</p>
+
+                    <h2 style="margin-top: 32px; margin-bottom: 16px;">2. Bekannte Barrieren und
+                        Einschränkungen</h2>
+                    <p><strong>Nicht vollständig barrierefrei sind:</strong></p>
+                    <ul style="margin-left: 20px;">
+                        <li style="margin-bottom: 16px;">
+                            <strong>Fehlende Pausen-Funktion beim Hintergrund-Video:</strong> Das Video auf der
+                            Startseite startet automatisch und dauert länger als fünf Sekunden.
+                            <ul style="margin-top: 8px;">
+                                <li><strong>Grund der Barriere:</strong> Ständige Bewegung im Hintergrund könnte zu Ablenkung führen und es Nutzern erschweren, 
+                                    den eigentlichen Text der Wbsite zu erfassen.</li>
+                                <li><strong>WCAG-Konflikt:</strong> Dies verstößt gegen das Erfolgskriterium 2.2.2, 
+                                    da für automatisch startende Inhalte, die parallel zu
+                                    anderen Inhalten angezeigt werden, eine Steuerungsmöglichkeit vorhanden
+                                    sein solten.</li>
+                            </ul>
+                        </li>
+                        <li style="margin-bottom: 8px;">
+                            <strong>Konfetti-Overlay auf der Shop-Seite:</strong> Über der Shop-Seite wird ein
+                            animiertes Konfetti-Overlay eingeblendet.
+                            <ul style="margin-top: 8px;">
+                                    <li><strong>Grund der Barriere:</strong> Diese Animation könnte für Nutzer mit kognitiven
+                                    Beeinträchtigungen oder Aufmerksamkeitsstörungen sehr ablenkend sein und das Lesen
+                                    der Kerninhalte erschweren.</li>
+                                <li><strong>WCAG-Konflikt:</strong> Da das Overlay automatisch startet und keine
+                                    sichtbare Funktion zum Stoppen oder Ausblenden bietet, widerspricht es ebenfalls dem
+                                    WCAG-Kriterium 2.2.2.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <h2 style="margin-top: 32px; margin-bottom: 16px;">3. Erstellung und Überprüfung
+                        dieser Erklärung</h2>
+                    <dl class="dl-grid" style="margin-top: 16px;">
+                        <dt style="font-weight: bold;">Erstellungsdatum:</dt>
+                        <dd style="color: var(--muted); margin: 0;">5. Mai 2026</dd>
+
+                        <dt style="font-weight: bold;">Überprüfungsmethoden:</dt>
+                        <dd style="margin: 0;">
+                            <ul style="margin: 0; padding-left: 20px; color: var(--muted);">
+                                <li>Interne Selbstbewertung</li>
+                                <li>Manuelle Prüfung mittels WAVE Accessibility Evaluation Tool</li>
+                            </ul>
+                        </dd>
+                    </dl>
+
+                    <h2 style="margin-top: 32px; margin-bottom: 16px;">4. Feedback und Kontakt</h2>
+                    <p>Haben Sie Barrieren gefunden? Wenn Ihnen Barrieren auffallen, die Sie an der
+                        Nutzung unserer Website hindern teilen Sie uns diese gerne mit. Wir werden uns bald um Ihre
+                        Anliegen kümmern und Ihnen innerhalb von zwei Monaten antworten.</p>
+                    <p>Bitte senden Sie Ihr Feedback an:</p>
+                    <ul style="margin-left: 20px;">
+                        <li style="margin-bottom: 8px;"><strong>E-Mail:</strong> <a href="mailto:support@partypulse.at">support@partypulse.at</a></li>
+                        <li style="margin-bottom: 8px;"><strong>Telefon:</strong> +43 123 456789</li>
+                    </ul>
+
+                    <h2 style="margin-top: 32px; margin-bottom: 16px;">5. Durchsetzungsverfahren bei
+                        Nichtbefolgung</h2>
+                    <p>Wenn Sie mit unseren Antworten auf Ihre Mitteilung nicht zufrieden sind können Sie sich mit
+                        einer Beschwerde bei der zuständigen Durchsetzungsstelle melden. Hierfür ist die
+                        Österreichische Forschungsförderungsgesellschaft zuständig.</p>
+
+                    <div class="info-alert" style="margin: 16px 0; border-radius: var(--r);">
+                        <p style="margin: 0;"><strong>Österreichische Forschungsförderungsgesellschaft mbH</strong></p>
+                        <p style="margin: 8px 0 0 0; color: var(--muted); font-size: .95rem;">
+                            📞 Tel: +43 5 7755 0<br>
+                            📧 E-Mail: <a href="mailto:office@ffg.at">office@ffg.at</a><br>
+                            🌐 Web: <a href="https://www.ffg.at/barrierefreiheit/beschwerdestelle" target="_blank"
+                                rel="noopener">Kontaktformular der
+                                Beschwerdestelle</a>
+                        </p>
+                    </div>
+
+                    <hr class="div" style="border: 0; border-top: 1px solid var(--border); margin: 40px 0;">
+                    <p style="color: var(--muted); font-size: .85rem; text-align: center;">
+                        <strong>Vielen Dank im voraus, dass Sie uns auf Barrieren hinweisen!</strong><br>
+                        Wir geben unser Bestes, auf ihre Rückmeldunge einzugehn.
+                    </p>
+
+                </div>
+            </div>
+        </article>
+    </main>
+
+<footer role="contentinfo">
+        <div class="foot">
+            <div class="foot-links"
+                style="display: flex; flex-wrap: wrap; gap: 24px; margin-bottom: 24px; justify-content: center;">
+                <a href="about.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Über uns</a>
+                <a href="license.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Lizenz &
+                    Urheberrecht</a>
+                <a href="privacy.html"
+                    style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Datenschutz</a>
+                <a href="contact.html" style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Kontakt & Impressum</a>
+                <a href="accessibility.html"
+                    style="color: var(--cyan); text-decoration: none; font-size: .9rem;">Barrierefreiheit</a>
+            </div>
+            <div class="foot-bot" style="text-align: center; color: var(--muted); font-size: .8rem;">
+                <span>© 2026 NeonPlay GmbH · Wien, Österreich</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
