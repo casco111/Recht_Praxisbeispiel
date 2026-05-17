@@ -147,8 +147,3 @@ document.addEventListener('keydown', e => {
   }
 });
 
-//sound
-// 1. Audio-Objekt erstellen und den Pfad zur Sound-Datei angeben
-//const mySound = new Audio('audios/partySound.mp3'); 
-
-//mySound.play();
